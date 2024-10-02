@@ -1,0 +1,14 @@
+.display {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.display.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.display.dark {
+  background-color: #333;
+  color: #fff;
+}

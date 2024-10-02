@@ -1,0 +1,69 @@
+/* App.css */
+
+.calculator {
+  width: 300px;
+  margin: 50px auto; /* Centra la calculadora */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator.light {
+  background-color: #ffffff;
+}
+
+.calculator.dark {
+  background-color: #1f1f1f;
+}
+
+.app.light {
+  background-color: #e4e4e4;
+  height: 100vh;
+  width: 100%;
+}
+
+.app.dark {
+  background-color: #292929;
+  height: 100vh;
+  width: 100%;
+}
+
+.boton.dark {
+  background-image: url('../images/lightmode.png');
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.boton.light {
+  background-image: url('../images/darkmode.png');
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .calculator {
+      width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .calculator {
+      width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .calculator {
+      width: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+/* index.css */
+
+/* Reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y fondo global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
